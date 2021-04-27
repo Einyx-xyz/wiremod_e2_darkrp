@@ -45,4 +45,4 @@ The addon is enabled automatically, if you still encounter problems, try running
 
 - Lexi for the original functions
 - Cyberuben for these functions, written from scratch.
-- Smiggy for changing some shit, lel.
+- Smiggy for adding and changing some shit, lel.
