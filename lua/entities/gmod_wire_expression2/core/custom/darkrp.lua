@@ -76,7 +76,7 @@ e2function number entity:printerHQCooling()
 	end
 end
 
--- Spawned money
+-- Money
 e2function number entity:isMoney()
 	if not IsValid(this) then return 0 end
 	if this:GetClass() == "spawned_money" then
@@ -95,7 +95,7 @@ e2function number entity:moneyAmount()
 	end
 end
 
--- Spawned shipment
+-- Shipments
 e2function number entity:isShipment()
 	if not IsValid(this) then return 0 end
 	if this:GetClass() == "spawned_shipment" then 
