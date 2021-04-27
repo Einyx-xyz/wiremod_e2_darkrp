@@ -1,14 +1,18 @@
 #Wire Expression 2 DarkRP functions
-I'm currently practising Lua and I thought it'd be nice to share some DarkRP functions for the ones that would like it.
 
 ###Money printers
-(Currently only support for [!!!Warlock!!!'s printers](http://steamcommunity.com/sharedfiles/filedetails/?id=105620182))
 
 __Function__ | __Return__
 ------------- | -------------
 E:isPrinter() | [Number] Returns 1 if the entity is a money printer, 0 if it isn't.
-E:printedMoney() | [Number] Returns the amount of money stored in the money printer, -1 if the entity isn't a money printer.
+E:printerAmount() | [Number] Returns the amount of money stored in the money printer, -1 if the entity isn't a money printer.
 E:printerType() | [String] Returns the type (or class) of the printer, "" if the entity isn't a money printer.
+E:printerOwner() | [Entity] Returns the owner of the printer.
+E:printerTier() | [String] Returns the tier of the printer.
+E:printerInkAmount() | [Number] Returns the amount of ink in the printer.
+E:printerInkMax() | [Number] Returns the max amount of ink the printer can hold.
+E:printerHealth() | [Number] Returns the printers health.
+E:printerHQCooling() | [Number] Returns 1 if the printer has HQ Cooling installed, otherwise it returns 0.
 
 ###Spawned money
 __Function__ | __Return__
