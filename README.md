@@ -1,4 +1,4 @@
-#Wire Expression 2 DarkRP functions
+# Wire Expression 2 DarkRP functions
 
 ###Money printers
 
