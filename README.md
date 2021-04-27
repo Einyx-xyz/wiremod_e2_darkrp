@@ -1,6 +1,8 @@
 # Wire Expression 2 DarkRP functions
 
-###Money printers
+## (This configuration of the addon only works with Elegant Printers)
+
+### Printers
 
 __Function__ | __Return__
 ------------- | -------------
@@ -14,13 +16,13 @@ E:printerInkMax() | [Number] Returns the max amount of ink the printer can hold.
 E:printerHealth() | [Number] Returns the printers health.
 E:printerHQCooling() | [Number] Returns 1 if the printer has HQ Cooling installed, otherwise it returns 0.
 
-###Spawned money
+### Money
 __Function__ | __Return__
 ------------- | -------------
 E:isMoney() | [Number] Returns 1 if the entity is spawned / dropped money, 0 if it isn't.
 E:moneyAmount() | [Number] Returns the amount of money dropped.
 
-###Shipments
+### Shipments
 __Function__ | __Return__
 ------------- | -------------
 E:isShipment() | [Number] Returns 1 if the entity is a shipment, 0 if it isn't.
@@ -35,12 +37,12 @@ E:shipmentAvailableSeperately() | [Number] Returns 1 if the entity in the shipme
 E:shipmentSpawnAmount() | [Number] Returns the amount of entities in the shipment when bought
 E:shipmentPricePerUnit() | [Number] Returns the price of 1 entity, when bought in a shipment (shipmentCost / shipmentAmount)
 
-#How to install
+# How to install
 Click the "Download ZIP" button on the right, extract in the addons folder of your server.
 The addon is enabled automatically, if you still encounter problems, try running `wire_expression2_extension_enable darkrp` followed by `wire_expression2_reload`.
 
-#"Credits"
-As some people might notice, all my functions have the same names and behavior as the functions on ByB Servers. I kept the function names and behavior the same, to not break all the E2s made on these servers (useful for people who are not that good with E2, but use one anyways).
+# Credits
 
 - Lexi for the original functions
-- Myself for these functions, written from scratch.
+- Cyberuben for these functions, written from scratch.
+- Smiggy for changing some shit, lel.
