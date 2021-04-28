@@ -36,13 +36,3 @@ E:shipmentIndividualCost() | [Number] Returns the buy price of a single entity i
 E:shipmentAvailableSeperately() | [Number] Returns 1 if the entity in the shipment can be bought seperately
 E:shipmentSpawnAmount() | [Number] Returns the amount of entities in the shipment when bought
 E:shipmentPricePerUnit() | [Number] Returns the price of 1 entity, when bought in a shipment (shipmentCost / shipmentAmount)
-
-# How to install
-Click the "Download ZIP" button on the right, extract in the addons folder of your server.
-The addon is enabled automatically, if you still encounter problems, try running `wire_expression2_extension_enable darkrp` followed by `wire_expression2_reload`.
-
-# Credits
-
-- Lexi for the original functions
-- Cyberuben for these functions, written from scratch.
-- Smiggy for adding and changing some shit, lel.
