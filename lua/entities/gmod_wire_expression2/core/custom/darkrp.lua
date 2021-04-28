@@ -3,6 +3,7 @@ E2Lib.RegisterExtension("DarkRP Functions", true, "Adds various useful functions
 printerClass = "sent_elegant_printer" -- change to your servers printers class ( some functions below will not work if you're not using elegant printers, so just remove them :D )
 
 -- Printers
+__e2setcost(4)
 e2function number entity:isPrinter()
 	if not IsValid(this) then  return 0 end
 	if this:GetClass() == printerClass then
