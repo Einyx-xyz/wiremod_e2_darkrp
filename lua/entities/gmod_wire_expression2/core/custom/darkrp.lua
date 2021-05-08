@@ -199,3 +199,5 @@ e2function number entity:shipmentPricePerUnit()
 		return -1
 	end
 end
+
+-- Bruh Moment
